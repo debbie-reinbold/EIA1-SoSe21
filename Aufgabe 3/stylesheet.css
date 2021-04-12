@@ -45,6 +45,7 @@ nav{
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   text-decoration:none;
+  left: 4%;
 }
 .active{
   background-color:ivory;
