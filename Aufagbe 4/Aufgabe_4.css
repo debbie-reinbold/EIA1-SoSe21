@@ -1,0 +1,37 @@
+body{
+    background-image: url(pics/bggruen1.png);
+}
+.Hintergrundbild{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    top: 8%;
+    right: 65%;
+    position: absolute;
+    text-decoration: underline;  
+}
+form{
+    position: absolute;
+    padding: 240px 350px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 17px;
+}
+.Name{
+    width: 250px;
+    height: 20px;
+}
+.Grüße{
+    width: 350px;
+    height: 70px;
+}
+.button{
+    margin-left: 30px;
+    margin-top: 7px;
+}

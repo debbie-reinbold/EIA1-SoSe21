@@ -1,0 +1,26 @@
+body{
+    background-image: url(pics/bglila.png);    
+}
+.Hintergrundbild{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Text{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: honeydew;
+    font-family: 'JellykaDeliciousCake' , sans-serif
+}
+@font-face {
+    src: url(fonts/Jellyka\ Delicious\ Cake.ttf);
+    src: url(fonts/jellyka_delicious_cake-webfont.woff);
+    src: url(fonts/jellyka_delicious_cake-webfont.woff2);
+    font-family: 'JellykaDeliciousCake', sans-serif
+}
