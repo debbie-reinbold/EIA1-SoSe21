@@ -16,11 +16,11 @@ body{
     transform: translate(-50%, -50%);
     font-size: 25px;
     color: honeydew;
-    font-family: 'JellykaDeliciousCake' , sans-serif
+    font-family: 'JellykaDeliciousCake';
 }
 @font-face {
     src: url(fonts/Jellyka\ Delicious\ Cake.ttf);
     src: url(fonts/jellyka_delicious_cake-webfont.woff);
     src: url(fonts/jellyka_delicious_cake-webfont.woff2);
-    font-family: 'JellykaDeliciousCake', sans-serif
+    font-family: 'JellykaDeliciousCake';
 }
