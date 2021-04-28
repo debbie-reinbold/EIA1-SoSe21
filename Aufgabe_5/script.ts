@@ -18,7 +18,7 @@ var Asia2018: number = 16274.1;
 var Australia2008: number = 1993;
 var Australia2018: number = 2100.5;
 
-var entireWorld2018 = Africa2018 + Southamerica2018 + Europe2018 + Northamerica2018 + Asia2018 + Australia2018 ;
+var entireWorld2018: number = Africa2018 + Southamerica2018 + Europe2018 + Northamerica2018 + Asia2018 + Australia2018 ;
 
 
 console.log("Die Emission von " + continentAfrica + " ist: " + Africa2018 + "kg CO2");
