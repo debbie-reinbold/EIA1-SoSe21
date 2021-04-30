@@ -1,11 +1,11 @@
 namespace Aufgabe_6 {
 
-var continentAfrica: string = "Afrika";
-var continentSouthamerica: string = "Südamerika";
-var continentEurope: string = "Europa";
-var continentNorthamerica: string = "Nordamerika";
-var continentAsia: string = "Asien";
-var continentAustralia: string = "Australien";
+var continentAfrica: string = "Africa";
+var continentSouthamerica: string = "Southamerika";
+var continentEurope: string = "Europe";
+var continentNorthamerica: string = "Northamerica";
+var continentAsia: string = "Asia";
+var continentAustralia: string = "Australia";
 
 var Africa2008: number = 1028;
 var Africa2018: number = 1235.5;

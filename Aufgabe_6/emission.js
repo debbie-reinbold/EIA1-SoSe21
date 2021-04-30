@@ -1,11 +1,11 @@
 var Aufgabe_6;
 (function (Aufgabe_6) {
-    var continentAfrica = "Afrika";
-    var continentSouthamerica = "Südamerika";
-    var continentEurope = "Europa";
-    var continentNorthamerica = "Nordamerika";
-    var continentAsia = "Asien";
-    var continentAustralia = "Australien";
+    var continentAfrica = "Africa";
+    var continentSouthamerica = "Southamerika";
+    var continentEurope = "Europe";
+    var continentNorthamerica = "Northamerica";
+    var continentAsia = "Asia";
+    var continentAustralia = "Australia";
     var Africa2008 = 1028;
     var Africa2018 = 1235.5;
     var Southamerica2008 = 1132.6;
