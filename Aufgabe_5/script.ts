@@ -1,3 +1,4 @@
+namespace Aufgabe_5 {
 var continentAfrica: string = "Afrika";
 var continentSouthamerica: string = "Südamerika";
 var continentEurope: string = "Europa";
@@ -57,4 +58,4 @@ console.log("2018 im Vergleich zu 2008 sind das " + Math.round(Australia2018-Aus
 
 
 
-
+}
