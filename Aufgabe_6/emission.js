@@ -23,40 +23,31 @@ var Aufgabe_6;
         document.querySelector(".africa").addEventListener("click", function () {
             emissionFunction(continentAfrica, Africa2018, Africa2008);
         });
-    });
-    window.addEventListener('load', function () {
         document.querySelector(".southamerica").addEventListener("click", function () {
             emissionFunction(continentSouthamerica, Southamerica2018, Southamerica2008);
         });
-    });
-    window.addEventListener('load', function () {
         document.querySelector(".europe").addEventListener("click", function () {
             emissionFunction(continentEurope, Europe2018, Europe2008);
         });
-    });
-    window.addEventListener('load', function () {
         document.querySelector(".northamerica").addEventListener("click", function () {
             emissionFunction(continentNorthamerica, Northamerica2018, Northamerica2008);
         });
-    });
-    window.addEventListener('load', function () {
         document.querySelector(".asia").addEventListener("click", function () {
             emissionFunction(continentAsia, Asia2018, Asia2008);
         });
-    });
-    window.addEventListener('load', function () {
         document.querySelector(".australia").addEventListener("click", function () {
             emissionFunction(continentAustralia, Australia2018, Australia2008);
         });
+        function emissionFunction(continent, continent2018, continent2008) {
+            document.querySelector("#continentName").innerHTML = continent;
+            document.querySelector("#continentAbsolute").innerHTML = continent2018.toString();
+            document.querySelector("#titleContinent").innerHTML = continent;
+            document.querySelector("#continentRelative").innerHTML = Math.round(continent2018 / entireWorld2018 * 100) / 100 + "%";
+            document.querySelector("#growthRate").innerHTML = Math.round((continent2018 - continent2008) / continent2008 * 100) / 100 + "%";
+            document.querySelector("#growthRateAbsolute").innerHTML = Math.round(((continent2018 - continent2008) * 100) / 100).toString();
+            document.querySelector('.chartFunction').setAttribute("style", "height:" + (continent2018 / entireWorld2018) * 100 + "%");
+        }
+        ;
     });
-    function emissionFunction(continent, continent2018, continent2008) {
-        document.querySelector("#continentAbsolute").innerHTML = continent2018.toString();
-        document.querySelector("#titleContinent").innerHTML = continent;
-        document.querySelector("#continentRelative").innerHTML = Math.round(continent2018 / entireWorld2018 * 100) / 100 + "%";
-        document.querySelector("#growthRate").innerHTML = Math.round((continent2018 - continent2008) / continent2008 * 100) / 100 + "%";
-        document.querySelector("#growthRateAbsolute").innerHTML = Math.round(((continent2018 - continent2008) * 100) / 100).toString();
-        document.querySelector('.chartFunction').setAttribute("style", "height:" + (continent2018 / entireWorld2018) * 100 + "%");
-    }
-    ;
 })(Aufgabe_6 || (Aufgabe_6 = {}));
 //# sourceMappingURL=emission.js.map
