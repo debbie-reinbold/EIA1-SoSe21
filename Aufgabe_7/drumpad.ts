@@ -1,14 +1,14 @@
 
-let sounds = [];
-sounds[0] = new Audio("sounds/A.mp3");
-sounds[1] = new Audio("sounds/C.mp3");
-sounds[2] = new Audio("sounds/F.mp3");
-sounds[3] = new Audio("sounds/G.mp3");
-sounds[4] = new Audio("sounds/hihat.mp3");
-sounds[5] = new Audio("sounds/kick.mp3");
-sounds[6] = new Audio("sounds/laugh-1.mp3");
-sounds[7] = new Audio("sounds/laugh-2.mp3");
-sounds[8] = new Audio("sounds/snare.mp3");
+let sounds: HTMLAudioElement[] = 
+[new Audio ("sounds/A.mp3"),
+new Audio("sounds/C.mp3"),
+new Audio("sounds/F.mp3"),
+new Audio("sounds/G.mp3"),
+new Audio("sounds/hihat.mp3"),
+new Audio("sounds/kick.mp3"),
+new Audio("sounds/laugh-1.mp3"),
+new Audio("sounds/laugh-2.mp3"),
+new Audio("sounds/snare.mp3")];
 
 window.addEventListener("load", function () {
     document.querySelector("#drum1").addEventListener("click", function () {
@@ -53,10 +53,10 @@ window.addEventListener("load", function () {
     }
 
 
-    let beat = [];
-    beat[0] = ("sounds/kick.mp3");
-    beat[1] = ("sounds/snare.mp3");
-    beat[2] = ("sounds/hihat.mp3");
+    let beat: HTMLAudioElement[] = [];
+    beat[0] = sounds[5],
+    beat[1] = sounds[8],
+    beat[2] = sounds[4];
 
 
 
@@ -71,9 +71,8 @@ window.addEventListener("load", function () {
         setTimeout(function () { playAudio(beat[2]); }, 1800);
     }
 
-    function playAudio(myBeat: string) {
-        let beat = new Audio(myBeat)
-        beat.play()
+    function playAudio(myBeat: HTMLAudioElement) {
+        myBeat.play()
     }
 
 });
