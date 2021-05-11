@@ -72,7 +72,7 @@ window.addEventListener("load", function () {
     }
 
     function playAudio(myBeat: HTMLAudioElement) {
-        myBeat.play()
+        myBeat.play();
     }
 
 });
