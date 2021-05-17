@@ -7,7 +7,7 @@ var Aufgabe_8;
         var remixButton = document.getElementById("remix");
         var beatInterval;
         var index = 0;
-        var sounds = [new Audio("sounds/snare.mp3"), new Audio("sounds/laugh1.mp3"), new Audio("sounds/laugh2.mp3"), new Audio("sounds/kick.mp3"), new Audio("sounds/hihat.mp3"), new Audio("sounds/G.mp3"), new Audio("sounds/F.mp3"), new Audio("sounds/C.mp3"), new Audio("sounds/A.mp3")];
+        var sounds = [new Audio("sounds/snare.mp3"), new Audio("sounds/laugh-1.mp3"), new Audio("sounds/laugh-2.mp3"), new Audio("sounds/kick.mp3"), new Audio("sounds/hihat.mp3"), new Audio("sounds/G.mp3"), new Audio("sounds/F.mp3"), new Audio("sounds/C.mp3"), new Audio("sounds/A.mp3")];
         var beatArray = [new Audio("sounds/kick.mp3"), new Audio("sounds/snare.mp3"), new Audio("sounds/hihat.mp3")];
         document.querySelector("#drum1").addEventListener("click", function () { playSample(sounds[0]); });
         document.querySelector("#drum2").addEventListener("click", function () { playSample(sounds[1]); });

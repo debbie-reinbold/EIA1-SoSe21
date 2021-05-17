@@ -10,7 +10,7 @@ namespace Aufgabe_8 {
         var remixButton: HTMLElement = document.getElementById("remix");
         var beatInterval: number;
         var index: number = 0;
-        var sounds: HTMLAudioElement[] = [new Audio("sounds/snare.mp3"), new Audio("sounds/laugh1.mp3"), new Audio("sounds/laugh2.mp3"), new Audio("sounds/kick.mp3"), new Audio("sounds/hihat.mp3"), new Audio("sounds/G.mp3"), new Audio("sounds/F.mp3"), new Audio("sounds/C.mp3"), new Audio("sounds/A.mp3")];
+        var sounds: HTMLAudioElement[] = [new Audio("sounds/snare.mp3"), new Audio("sounds/laugh-1.mp3"), new Audio("sounds/laugh-2.mp3"), new Audio("sounds/kick.mp3"), new Audio("sounds/hihat.mp3"), new Audio("sounds/G.mp3"), new Audio("sounds/F.mp3"), new Audio("sounds/C.mp3"), new Audio("sounds/A.mp3")];
         var beatArray: HTMLAudioElement[] = [new Audio("sounds/kick.mp3"), new Audio("sounds/snare.mp3"), new Audio("sounds/hihat.mp3")];
 
 
