@@ -36,6 +36,7 @@ var Aufgabe_8;
             }
         });
         trashButton.addEventListener("click", function () {
+            clearInterval(beatInterval);
             beatArray.length = 0;
             if (beatArray.length == 0) {
                 playButton.classList.remove("isHidden");
